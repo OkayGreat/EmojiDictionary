@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B81530271D93081600EFEC34 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81530261D93081600EFEC34 /* DefinitionViewController.swift */; };
+		B81530291D9796F600EFEC34 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81530281D9796F600EFEC34 /* Emoji.swift */; };
 		B82F211C1D91A29600A72888 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82F211B1D91A29600A72888 /* AppDelegate.swift */; };
 		B82F211E1D91A29600A72888 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82F211D1D91A29600A72888 /* ViewController.swift */; };
 		B82F21211D91A29600A72888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82F211F1D91A29600A72888 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B81530261D93081600EFEC34 /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		B81530281D9796F600EFEC34 /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		B82F21181D91A29600A72888 /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82F211B1D91A29600A72888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B82F211D1D91A29600A72888 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				B82F211B1D91A29600A72888 /* AppDelegate.swift */,
 				B82F211D1D91A29600A72888 /* ViewController.swift */,
+				B81530261D93081600EFEC34 /* DefinitionViewController.swift */,
+				B81530281D9796F600EFEC34 /* Emoji.swift */,
 				B82F211F1D91A29600A72888 /* Main.storyboard */,
 				B82F21221D91A29600A72888 /* Assets.xcassets */,
 				B82F21241D91A29600A72888 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B82F211E1D91A29600A72888 /* ViewController.swift in Sources */,
+				B81530271D93081600EFEC34 /* DefinitionViewController.swift in Sources */,
+				B81530291D9796F600EFEC34 /* Emoji.swift in Sources */,
 				B82F211C1D91A29600A72888 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				B82F212C1D91A29600A72888 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
